@@ -12,7 +12,7 @@ public class Hands extends JLabel {
     private int m=1;
     public int size=40;
     public void moveOne(){
-        if (x<=2||x>=1138||y<=2||y>=718){
+        if (x<=1||x>=1139||y<=1||y>=719){
             modifyDirection();
         }
         switch (direction){
